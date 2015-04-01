@@ -1,6 +1,6 @@
 {
   "name": "odoql-localstorage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Json querying for localstorage",
   "main": "index.js",
   "scripts": {
