@@ -4,7 +4,7 @@ module.exports = function(query, cb) {
   result = {};
   for (key in query) {
     value = query[key];
-    result[key] = JSON.parse(localStorage[value.__params]);
+    result[key] = JSON.parse(localStorage.getItem(value.__params));
   }
   cb(null, result);
   return function() {
