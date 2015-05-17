@@ -6,6 +6,6 @@ module.exports =
         getsource (err, source) ->
           return cb err if err?
           try
-            cb null, localStorage[source]
+            cb null, localStorage.getItem source
           catch e
             cb e

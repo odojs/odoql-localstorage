@@ -11,7 +11,7 @@ module.exports = {
             return cb(err);
           }
           try {
-            return cb(null, localStorage[source]);
+            return cb(null, localStorage.getItem(source));
           } catch (_error) {
             e = _error;
             return cb(e);
