@@ -1,6 +1,6 @@
 {
   "name": "odoql-localstorage",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Json querying for localstorage",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,5 @@
     "url": "https://github.com/odojs/odoql-localstorage/issues"
   },
   "homepage": "https://github.com/odojs/odoql-localstorage",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
